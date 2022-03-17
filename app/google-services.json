@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "581390068172",
+    "firebase_url": "https://fir-crud-4252b-default-rtdb.firebaseio.com",
+    "project_id": "fir-crud-4252b",
+    "storage_bucket": "fir-crud-4252b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581390068172:android:4ed69a8d46eda395469569",
+        "android_client_info": {
+          "package_name": "com.example.aplikasiapotek"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581390068172-f3i6nnputeh5aqrv1tlgdqrn11ac1ov0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5MAD33dRjkkYjvq7N_8Ks04cSTG0lgJQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "581390068172-f3i6nnputeh5aqrv1tlgdqrn11ac1ov0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
