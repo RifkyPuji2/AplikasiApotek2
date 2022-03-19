@@ -24,7 +24,7 @@ class MainAdapter(private val context: Context,
         val color = generator.randomColor
         holder.view.setCardBackgroundColor(color)
         holder.namaBarang.text = "Nama   : " + (daftarBarang?.get(position)?.nama)
-        holder.merkBarang.text = "Merk     : " + daftarBarang?.get(position)?.merk
+        holder.merkBarang.text = "Jenis      : " + daftarBarang?.get(position)?.merk
         holder.hargaBarang.text = "Harga   : " + daftarBarang?.get(position)?.harga
         holder.view.setOnClickListener { listener.onDataClick(daftarBarang?.get(position), position) }
     }
