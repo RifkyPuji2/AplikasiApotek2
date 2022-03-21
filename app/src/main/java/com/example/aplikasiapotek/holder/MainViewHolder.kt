@@ -9,21 +9,21 @@ import com.example.aplikasiapotek.R
 class MainViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
     @JvmField
-    var namaBarang: TextView
+    var namaObat: TextView
 
     @JvmField
-    var merkBarang: TextView
+    var jenisObat: TextView
 
     @JvmField
-    var hargaBarang: TextView
+    var hargaObat: TextView
 
     @JvmField
     var view: CardView
 
     init {
-        namaBarang = itemView.findViewById(R.id.nama_obat)
-        merkBarang = itemView.findViewById(R.id.jenis_obat)
-        hargaBarang = itemView.findViewById(R.id.harga_obat)
+        namaObat = itemView.findViewById(R.id.nama_obat)
+        jenisObat = itemView.findViewById(R.id.jenis_obat)
+        hargaObat = itemView.findViewById(R.id.harga_obat)
         view = itemView.findViewById(R.id.cvMain)
     }
 }

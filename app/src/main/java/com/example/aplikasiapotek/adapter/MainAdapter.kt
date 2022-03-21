@@ -23,9 +23,9 @@ class MainAdapter(private val context: Context,
         val generator = ColorGenerator.MATERIAL //custom color
         val color = generator.randomColor
         holder.view.setCardBackgroundColor(color)
-        holder.namaBarang.text = "Nama   : " + (daftarBarang?.get(position)?.nama)
-        holder.merkBarang.text = "Jenis      : " + daftarBarang?.get(position)?.merk
-        holder.hargaBarang.text = "Harga   : " + daftarBarang?.get(position)?.harga
+        holder.namaObat.text = "Nama   : " + (daftarBarang?.get(position)?.nama)
+        holder.jenisObat.text = "Jenis      : " + daftarBarang?.get(position)?.jenis
+        holder.hargaObat.text = "Harga   : " + daftarBarang?.get(position)?.harga
         holder.view.setOnClickListener { listener.onDataClick(daftarBarang?.get(position), position) }
     }
 

@@ -4,14 +4,14 @@ class ModelBarang {
 
     var key: String? = null
     var nama: String? = null
-    var merk: String? = null
+    var jenis: String? = null
     var harga: String? = null
 
     constructor() {}
 
-    constructor(namaBarang: String?, merkBarang: String?, hargaBarang: String?) {
-        nama = namaBarang
-        merk = merkBarang
-        harga = hargaBarang
+    constructor(namaObat: String?, jenisObat: String?, hargaObat: String?) {
+        nama = namaObat
+        jenis = jenisObat
+        harga = hargaObat
     }
 }
