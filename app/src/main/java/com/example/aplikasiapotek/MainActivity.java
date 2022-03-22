@@ -198,7 +198,7 @@ public class MainActivity extends AppCompatActivity implements MainAdapter.Fireb
         mEditHarga = view.findViewById(R.id.harga_obat);
 
         mEditNama.setText(barang.getNama());
-        mEditMerk.setText(barang.getMerk());
+        mEditMerk.setText(barang.getJenis());
         mEditHarga.setText(barang.getHarga());
         builder.setView(view);
 
@@ -207,7 +207,7 @@ public class MainActivity extends AppCompatActivity implements MainAdapter.Fireb
                 @Override
                 public void onClick(DialogInterface dialog, int id) {
                     barang.setNama(mEditNama.getText().toString());
-                    barang.setMerk(mEditMerk.getText().toString());
+                    barang.setJenis(mEditMerk.getText().toString());
                     barang.setHarga(mEditHarga.getText().toString());
                     updateDataBarang(barang);
                 }
